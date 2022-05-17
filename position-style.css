@@ -1,0 +1,80 @@
+
+
+
+
+.positions {
+    height: 150vh;
+    width: 70%;
+    border: 1px solid red;
+    position: relative
+}
+
+.div1 {
+    height: 15vh ;
+    width: 30%;
+    background-color: palevioletred;
+    /* position: absolute; */
+    /* top: 0; */
+    /* right: 0; */
+
+    /* position: sticky; */
+    /* top: 0; */
+
+    position: absolute;
+    z-index: 1;
+
+}
+
+.div2 {
+    height: 15vh ;
+    width: 30%;
+    background-color: indianred;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: 0; */
+
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* left: 60vh; */
+
+    position: absolute;
+    z-index: 2;
+}
+
+.div3 {
+    height: 15vh ;
+    width: 30%;
+    background-color: lightcoral;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* right: 0; */
+
+    /* position: sticky; */
+    /* top: 20px; */
+
+    position: absolute;
+    z-index: 3;
+}
+
+.div4 {
+    height: 15vh ;
+    width: 30%;
+    background-color: turquoise;
+    /* position: absolute; */
+    /* bottom: 30vh; */
+    /* left: 130px; */
+
+    position: absolute;
+    z-index: 4;
+}
+
+.div5 {
+    height: 15vh ;
+    width: 30%;
+    background-color: palegreen;
+    position: absolute;
+    z-index: 5;
+}
+
+
+

@@ -1,0 +1,400 @@
+
+
+
+body{
+    background-color: rgb(211, 247, 247);
+}
+
+.hone {
+    color: rgb(206, 145, 71);
+}
+
+.htwo {
+    color: rgba(117, 163, 163,);
+}
+
+#hthree {
+    color: rgb(150, 189, 61);
+}
+
+.hfour {
+    color: rgba(20, 90, 231, 0.5);
+}
+
+.hfive {
+    color:#f8c90f ;
+}
+
+.div1 {
+    height: 10vh;
+    width: 40%;
+    background-color: aquamarine;
+}
+
+.div2 {
+    height: 20vh;
+    width: 40%;
+    background-color: aquamarine;
+}
+
+.backimg {
+    height: 70vh;
+    width: 70%;
+    background-image: url(/Images/artur-rutkowski-GdTLaWamFHw-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.boxmodel {
+    height: 20vh;
+    width: 40%;
+    border: 10px solid coral;
+    margin: 10px 0px 20px 30px ;
+    padding: 10px 5px 30px 20px;
+    border-top-color: maroon;
+    border-bottom-color: aqua;
+  
+}
+.boxmodel h1{
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: lowercase;
+    color: aquamarine;
+} 
+.boxmodel p{
+    text-decoration: overline;
+    text-align: justify;
+    color: blue;
+} 
+
+.boxmodel p {
+    text-shadow: 2px 2px 5px rgb(161, 37, 79);
+    line-height: 1;
+    letter-spacing: 2px;
+}
+
+.boxmodel2 {
+    height: 40vh;
+    width: 60%;
+    border: 10px solid palevioletred;
+    margin: 10px 70px 60px 0px;
+    padding: 10px 5px 10px 5px;
+
+}
+
+.boxmodel2 p {
+   
+    font-style: normal;
+    font-weight: 700;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.boxmodel3{
+    height: 20vh;
+    width: 50%;
+    margin: 20px 36px 20px 35px;
+    border: 20px solid red;
+    padding: 10px 19px 15px 5px;
+    text-decoration: line-through;
+}
+.boxmodel3 p {
+    text-shadow: 4px 4px 4px chartreuse ;
+    line-height: 2 ;
+    letter-spacing: -1px;
+}
+.boxmodel4 {
+    height: 40vh;
+    width: 70%;
+    border: 10px solid plum;
+    margin: 20px 0px 10px 0px;
+    padding: 10px 20px 0px 10px;
+}
+
+.boxmodel4 p {
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Tapestry', cursive;
+
+}
+
+.links a {
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: large;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 700;
+   font-style: italic;
+   display: block;
+   /* visibility: hidden; */
+    color: navy
+}
+
+.list li {
+    list-style-type: lower-alpha;
+    /* display: inline; */
+    color: blueviolet;
+    background-color:black;
+}
+
+.list ol {
+    background-color: red;
+    padding: 20px;
+}
+
+.tables table, th, td {
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+
+.tables table {
+    height: 30vh;
+    width: 80%;
+}
+
+.tables th {
+    color: blueviolet;
+    background-color: #f8c90f;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.tables td {
+    text-align: center;
+}
+
+.tables tr:nth-child(odd) {
+    background-color: red;
+    
+}
+
+.tables td:nth-child(odd) {
+    background-color: #f8c90f;
+}
+
+.overflow {
+    height: 13vh;
+    width: 70%;
+    border: 2px solid slateblue;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+    padding: 15px;
+}
+
+.floats {
+    border: 1px solid olivedrab;
+    padding: 10px;
+ 
+}
+
+.floats img {
+    /* float: right; */
+    float: left;
+    height: 100px;
+    padding-right: 20px;
+}
+
+.floats p {
+    /* clear: left; */
+    clear: right;
+}
+
+.inputs input {
+    margin-bottom: 10px;
+    width: 40%;
+    padding: 7px;
+}
+
+.inputs input[type=text] {
+    /* border: 1px solid forestgreen; */
+    /* border: none; */
+    /* border-bottom: 1px solid tomato; */
+    outline: none;
+    /* background-color: plum; */
+    /* background-image: url(/Images/search.png); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    transition: width .5s ease-in-out;
+}
+
+.inputs input[type=text]:focus { 
+    /* background-color: aquamarine; */
+    /* border: none; */
+    /* border-bottom: 1px solid tomato; */
+    width: 50%;
+}
+
+.inputs select{
+    width: 50%;
+    padding: 5px;
+    border: none;
+    background-color: indianred;
+    outline: none;
+    border-radius: 20px;
+}
+
+.inputs button {
+    padding: 5px 10px 5px 10px;
+    background-color: violet;
+    color: white;
+    border-radius: 20px;
+    transition: 1s ease-in-out;
+}
+
+.inputs button:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.flex {
+    height: 70vh;
+    width: 100%;
+    border: 2px solid salmon;
+    display: flex;
+    /* justify-content: center; */
+       /* moves content horizontally */
+       /* align-items: flex-end; */
+       /* flex-direction: column; */
+       /* moves items vertically */
+
+       /* flex-wrap: wrap; */
+       flex-direction: column;
+       /* flex-flow: column-reverse; */
+       flex-flow: column;
+       /* justify-content: space-between; */
+} 
+
+.div18 {
+    height: 20vh;
+    width: 30%;
+    background-color: black;
+    order: 6;
+    /* flex-grow: 12; */
+    flex-basis: 200px;
+
+}
+
+.div19 {
+    height: 20vh;
+    width: 30%;
+    background-color: pink;
+    order: 7;
+}
+
+.div20 {
+    height: 20vh;
+    width: 30%;
+    background-color: yellow;
+    order: 1;
+}
+
+.div21 {
+    height: 20vh;
+    width: 30%;
+    background-color: hotpink;
+    order: 2;
+}
+
+.div22 {
+    height: 20vh;
+    width: 30%;
+    background-color: orchid;
+    order: 3;
+}
+
+.div23 {
+    height: 20vh;
+    width: 30%;
+    background-color: floralwhite;
+    order: 4;
+}
+
+.div24 {
+    height: 20vh;
+    width: 30%;
+    background-color: mediumaquamarine;
+    order: 5;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+    height: 5vh;
+    background-color: honeydew;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    padding: 20px;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.navbar ul li a:hover {
+    color: aqua;
+    background-color: black;
+    padding: 10px;
+}
+
+.style-lists {
+    padding: 50px;
+}
+
+.style-lists ul li {
+    list-style-type: none;
+}
+
+.style-lists ul li::before  {
+    content: "\2713";
+    color:indianred;
+}
+
+.transform img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    transform: translate(100px, 60px);
+    /* transform: rotate(20deg); */
+    /* transform: rotate(-20deg); */
+    /* transform: scale(2,1) ; */
+    /* transform: skewX(20deg); */
+    animation-name: cup;
+    animation-duration: 3s;
+    animation-iteration-count: infinite ;
+
+}
+
+@keyframes cup {
+
+    from {
+        transform: translate(1000px, 300px) rotate(20deg);
+    }
+
+    25% {
+        transform: translate(20px, 30px);
+    }
+
+
+    to {
+        transform: translate(100px, 60px);
+    }
+}
